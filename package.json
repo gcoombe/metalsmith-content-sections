@@ -1,0 +1,23 @@
+{
+  "name": "metalsmith-content-sections",
+  "version": "0.1.0",
+  "description": "Parse your content into sections which you can iterate over in your templates and add extra wrapping markup.",
+  "main": "lib/index.js",
+  "repository": {
+    "url": "https://github.com/gcoombe/metalsmith-content-sections",
+    "type": "git"
+  },
+  "author": "Graham Coombe <gscoombe@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0"
+  },
+  "devDependencies": {
+    "metalsmith": "^2.3.0",
+    "metalsmith-markdown": "^0.2.1",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
