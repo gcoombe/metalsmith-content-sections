@@ -1,5 +1,7 @@
 # metalsmith-content-sections
 
+A metalsmith plugin which parses html content into sections.  Useful in scenarios like an FAQ's so that you can write your content in markdown but apply additional markup to the resulting file (ex: questions as accordions).
+
 ## Installation
 
     $ npm install metalsmith-content-sections
